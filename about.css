@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#ffffff ;
+}
+
+li,a,button{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 700;
+    font-size:16px;
+    color: #edf0f1;
+    text-decoration: none;
+    
+    
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #ffffff;
+   
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:  0 5px 10px rgb(0, 0, 0,0.2);
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+#navbar li{
+    list-style: none;
+    padding: 0 25px;
+    position: relative;
+
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    transition: .3s ease;
+}
+
+#navbar li a:hover{
+    /* color: blueviolet; */
+    padding: 9px 25px;
+    background-color:#3082e6 ;
+    border-radius: 50px;
+    cursor: tar;
+    color: #ffff;
+   
+}
+
+#navbar li a.active{
+    padding: 90px 25px;
+    background-color:#3082e6 ;
+    border-radius: 50px;
+    cursor: tar;
+    box-shadow:  0 5px 10px rgb(0, 0, 0,0.2);
+    color: #ffffff;
+}
+
+
+
+#navbar li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    /* background: blueviolet; */
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+
+
+.contact {
+    background-color: #0173ff;
+    color: #edf0f1;
+    border: none;
+    border-radius: 50px;
+    font-weight: 500;
+    font-weight:normal;
+    font-size:16px;
+    transition: 0.3s ease 0s;
+    padding: 0.6rem 1.0rem;
+   
+    
+}
+.contact:hover{
+    background-color: #fff;
+    color: #3082e6;
+    font-weight: bold;
+    transform: scale(1.05);
+    box-shadow: #82baff;
+    
+}
+
+
+.nav_bar{
+    border-radius: 50%;
+
+}
+
+
+.sct_2{
+    padding-top: 13%;
+    padding-left: 8%;
+    color: #169aec;
+    
+    
+}
+
+.logo{
+    width: 150px;
+}
+
+.img1{
+    width: 860px;
+    height: 620px;
+    margin-left: 48%;
+    margin-top:-30%;
+    border-radius: 76% 49% 100% 90% / 83% 10% 93% 0%;
+    box-shadow: #3082e6;
+    
+}
+
+.sct_2{
+    margin-left:-52px;
+    margin-top: -30px;
+}
+
+.h_2 {
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+    letter-spacing: 2px;
+    color: #1f0f9e;
+    margin-right:10px ;
+}
+
+
+
+.p_1{
+    padding: 5px;
+    padding-top: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    color: #33266E;
+    margin-left: 5px;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+.login_btn{
+    display: inline-block;
+    padding: 0.9rem 1.3rem;
+    background: rgb(255, 255, 255) ;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem rgb(13, 9, 236);
+    font-size: 1.0rem;
+    color: rgb(44, 40, 85);
+    letter-spacing: 1;
+    font-weight: 600;
+    transition: .5s ease ;
+    margin : 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.login_btn:hover{
+    box-shadow: none;
+    color: rgb(117, 101, 255);
+}
+

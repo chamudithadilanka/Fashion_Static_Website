@@ -1,0 +1,100 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THUNDER FAShION</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   
+    <section id="header">
+        <a href="index.html"><img src="logo.png" alt="" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gentlement/gentlement.html">GENTLEMENT</a></li>
+                <li><a href="ladies/ladies.html">LADIES</a></li>
+                <li><a href="Kides/kids.html">KIDS</a></li>
+                <li><a href="index.html"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="contact.html" class="contact">CONTACT</a></li>
+            
+            </ul>
+        </div>
+    </section>
+   
+   
+   
+    <!-- <header class="h_body">
+        <img class="logo" src="logo.png" width="140px" height="35px">
+        <nav class="nav_bar">
+            <ul class="navi">
+                  <li><a href="">HOME</a></li>  
+                  <li><a href="">ABOUT</a></li>
+                  <li><a href="">GENTLEMENT</a></li> 
+                  <li><a href="">LADIES</a></li>
+                  <li><a href="">KIDS</a></li>
+                  <li><input class="button" type="button" value="CONTACT"></li> 
+            </ul>
+        </nav>
+    </header>  -->
+
+    <section>
+        <div class="sct_2">
+            <h2 class="h_2">THUNDER FASHION</h2>
+                <div class="container">
+                    <span class="text first_text">WELCOME TO OUR</span>
+                    <span class="text sec_text"></span>
+                </div>
+            <p class="p_1" >Welcome to Thunder Fashion, where style meets elegance! Our online fashion<br>destination offers a curated selection of trendy and<br> sophisticated clothing and accessories for both men and women. </p>
+            <input class="login_btn" type="button" value="LOGIN">
+            <input class="signup_btn" type="button" value="SINGUP">
+            <div class="social_media">
+                <a href="https://www.linkedin.com/"  class="social_icon"><i class='bx bxl-google'></i></a>
+                <a href="https://www.facebook.com/"  class="social_icon"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/?lang=en"  class="social_icon"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/accounts/login/"  class="social_icon"><i class='bx bxl-instagram-alt'></i></a>
+                
+            </div>
+            <img class="img1" src="about.png" alt="main_img">
+        </div>
+       
+        
+
+    </section>
+    
+    
+        <script>
+            const text = document.querySelector(".sec_text");
+
+            const textLoad = () => {
+                setTimeout(() =>{
+                    text.textContent = "FASHION.";
+                }, 0);
+                
+                setTimeout(() =>{
+                    text.textContent = "CRAZE.";
+                }, 4000);
+
+                setTimeout(() =>{
+                    text.textContent = "TRENDS.";
+                }, 8000);
+
+                setTimeout(() =>{
+                    text.textContent = "FAD.";
+                }, 12000);
+
+            } 
+            textLoad();
+            setInterval(textLoad,16000);
+        </script>
+
+
+
+    </section> 
+
+ 
+</body>
+</html>
